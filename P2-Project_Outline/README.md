@@ -7,12 +7,28 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-Include overview here
+Turn Balto's Customer Health Score Spreadsheet into a useable internal web app
 ### Features
-Include Features here
+- At least one user profile with login credentials for the Customer Success Team
+    * Bonus: multiple user profiles for each CSM
+    * Bonus: user(s) can reset their password via email
+- From the user profile, users can edit the health scores
+- Health scores are stored in a mySQL database.
+- The scores are automatically exported to Salesforce and update a field on the correct Account Record Object
+    * Bonus there is a printable .pdf of the scores
 ### Technologies
 Include Technologies here
+- Java
+- Spring Boot
+- MySQL
+- Hibernate
+- Thymeleaf templates
+- Salesforce API integration (probably JSON)
 ### What I'll Have to Learn
 Include what you will need to learn here
+- How to offer users a reset password link
+- how to send updates to SF via an integration
+- how to automate those updates to SF
+- HTML & CSS to create a visually appealing and functional page containing a large number of fields
 ### Project Tracker
-Link to your Trello board here
+https://trello.com/b/NHkCQgzb/agile-sprint-board
