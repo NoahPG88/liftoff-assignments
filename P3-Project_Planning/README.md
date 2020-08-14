@@ -21,3 +21,6 @@ Include a link to your public Trello board. Be sure you have user stories added 
 ### Project Repo Link
 
 Include a link to your project on GitHub.
+
+To https://github.com/NoahPG88/customer-health-scores.git
+
