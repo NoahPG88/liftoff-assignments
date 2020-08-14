@@ -16,6 +16,7 @@ Turn Balto's Customer Health Score Spreadsheet into a useable internal web app
 - Health scores are stored in a mySQL database.
 - The scores are automatically exported to Salesforce and update a field on the correct Account Record Object
     * Bonus there is a printable .pdf of the scores
+- health scores auto update in real time on the interface
 ### Technologies
 Include Technologies here
 - Java
@@ -24,6 +25,7 @@ Include Technologies here
 - Hibernate
 - Thymeleaf templates
 - Salesforce API integration (probably JSON)
+- Javascript which allows changes to update in real time
 ### What I'll Have to Learn
 Include what you will need to learn here
 - How to offer users a reset password link
